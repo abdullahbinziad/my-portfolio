@@ -5,7 +5,7 @@ import Navbar from "../components/navbar/Navbar";
 
 const MainLayout = () => {
   return (
-    <div className=" bg-bg-image bg-fixed">
+    <div className=" bg-bg-image bg-fixed font-font-rubik">
       <div className=" container mx-auto flex justify-between gap-10 ">
         <div className="  ">
           <MainSidear></MainSidear>

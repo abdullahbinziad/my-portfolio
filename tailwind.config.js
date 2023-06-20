@@ -15,7 +15,15 @@ module.exports = withMT({
     },
     colors:{
       'my-gray': '#F3F6F6',
-    }
+      'my-grad1': '#FCF4FF',
+      'my-grad2': '#FEFAF0',
+      'my-grad3': '#FFF4F4',
+      'my-grad4': '#F3FAFF',
+      'my-grad5': '#F8FBFB',
+    },
+    fontFamily: {
+      'font-rubik': ['Rubik', 'sans-serif'],
+    },
   
   },
     
