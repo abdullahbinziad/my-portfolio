@@ -13,22 +13,45 @@ import firebase from '../../assets/programing-icons/firebase.png';
 
 
 export default class ExpertisePlay extends Component {
-  render() {
-    const settings = {
-      dots: false,
-      infinite: true,
-      slidesToShow: 6,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 2000,
-      cssEase: "linear"
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      settings: {
+        dots: false,
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: 'linear',
+      },
     };
+  }
+
+  updateSettings = () => {
+    const isSmallDevice = window.innerWidth <= 640; // Define your desired small device breakpoint
+    const updatedSettings = isSmallDevice ? { ...this.state.settings, slidesToShow: 3 } : { ...this.state.settings, slidesToShow: 6 };
+    this.setState({ settings: updatedSettings });
+  };
+
+  componentDidMount() {
+    this.updateSettings();
+    window.addEventListener('resize', this.updateSettings);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateSettings);
+  }
+
+  render() {
+
     return (
       <div>
     
 
-        <Slider className="" {...settings}>
+        <Slider  className="" {...this.state.settings}>
      <div className=" px-6">    <img className="w-10" src={html} alt="" /></div>
      <div className=" px-6">    <img className="w-10" src={css} alt="" /></div>
      <div className=" px-6">    <img className="w-10" src={bootstrap} alt="" /></div>

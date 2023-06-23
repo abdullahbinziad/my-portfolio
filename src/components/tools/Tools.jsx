@@ -6,7 +6,7 @@ const Tools = () => {
     "VS Code ",
     " git",
     " Figma",
-    "Adobe XD",
+    " XD",
     "Netlify ",
     "Vercel ",
     "Heroku ",
@@ -16,9 +16,9 @@ const Tools = () => {
 
   return (
     <div>
-        <h1 className="text-lg py-2 font-semibold">Tools:</h1>
-        <div className="flex gap-4 ">
-      {tools.map((n) => (  <span className="border py-1">{n}</span>))}
+        <h1 className="text-lg py-2 font-semibold  dark:text-white">Tools:</h1>
+        <div className="flex gap-2 flex-wrap ">
+      {tools.map((n) => (  <div className="border mx-auto p-2 rounded-md "><p className=" dark:text-white">{n}</p></div>))}
     </div>
     </div>
   );

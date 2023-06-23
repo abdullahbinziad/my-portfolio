@@ -12,8 +12,12 @@ import ts from '../../assets/programing-icons/comfortable/ts.png';
 
 
 export default class ComfortabePlay extends Component {
-  render() {
-    const settings = {
+
+
+constructor(props) {
+  super(props);
+  this.state = {
+    settings: {
       dots: false,
       infinite: true,
       slidesToShow: 4,
@@ -21,21 +25,42 @@ export default class ComfortabePlay extends Component {
       autoplay: true,
       speed: 2000,
       autoplaySpeed: 2000,
-      cssEase: "linear"
-    };
-    return (
-      <div>
-    
-<h1 className="font-semibold text-lg">Comfortable</h1>
-        <Slider className="" {...settings}>
-     <div className=" px-6">    <img className="w-24" src={nodejs} alt="" /></div>
+      cssEase: 'linear',
+    },
+  };
+}
+
+updateSettings = () => {
+  const isSmallDevice = window.innerWidth <= 640; // Define your desired small device breakpoint
+  const updatedSettings = isSmallDevice ? { ...this.state.settings, slidesToShow: 2 } : { ...this.state.settings, slidesToShow: 4 };
+  this.setState({ settings: updatedSettings });
+};
+
+componentDidMount() {
+  this.updateSettings();
+  window.addEventListener('resize', this.updateSettings);
+}
+
+componentWillUnmount() {
+  window.removeEventListener('resize', this.updateSettings);
+}
+
+render() {
+
+  return (
+    <div className="">
+       <h1 className="text-white">Comfortable</h1>
+    <div className=" rounded  md:rounded-lg">
+ 
+
+      <Slider  className="" {...this.state.settings}>
+      <div className=" px-6">    <img className="w-24" src={nodejs} alt="" /></div>
      <div className=" px-6">    <img className="w-24" src={expressjs} alt="" /></div>
      <div className=" px-6">    <img className="w-24" src={jwt} alt="" /></div>
      <div className=" px-6">    <img className="w-24" src={ts} alt="" /></div>
-     <div className=" px-6">    <img className="w-24" src={axios} alt="" /></div>
-    
-        </Slider>
-      </div>
-    );
-  }
-}
+    <div className=" px-6">    <img className="w-24" src={axios} alt="" /></div>
+      </Slider>
+    </div>
+    </div>
+  );
+} }

@@ -7,12 +7,12 @@ import Tools from "../../components/tools/Tools";
 
 const Home = () => {
   return (
-    <div>
-      <div className="p-16 bg-white rounded-2xl space-y-3">
+    <div className="p-2 md:p-0">
+      <div className="md:p-16 p-8 bg-white dark:bg-my-dark rounded-2xl space-y-3">
         <div>
-          <h1 className="text-3xl font-bold">About Me</h1>{" "}
-          <hr className="bg-btn-grad mt-4" />
-          <h3 className="text-lg py-5">
+          <h1 className="md:text-3xl text-2xl font-bold dark:text-white">About Me</h1>{" "}
+          <hr className="bg-btn-grad mt-4 " />
+          <h3 className="md:text-lg  py-5 dark:text-gray-400">
             Highly motivated and detail-oriented Junior Frontend Developer with
             a passion for creating interactive and user-friendly web
             applications using React. Seeking a challenging position to leverage
@@ -25,7 +25,7 @@ const Home = () => {
           </h3>
         </div>
         <div>
-          <h1 className="text-3xl font-bold">Expertise </h1>
+          <h1 className="md:text-3xl text-2xl font-bold dark:text-white">Expertise </h1>
           <hr className="bg-btn-grad mt-4" />
           <div className="">
             <div className=" p-6 rounded-lg">
