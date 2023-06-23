@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-end">
+    <div className="md:flex justify-end">
       <div className="flex  justify-start gap-3 bg-white px-6 py-4 rounded-md">
         <NavLink
           to="/"
