@@ -1,3 +1,5 @@
+
+
 const withMT = require("@material-tailwind/react/utils/withMT");
  
 module.exports = withMT({
@@ -12,9 +14,9 @@ module.exports = withMT({
   theme: {
     extend: {
       backgroundImage:{
-      'btn-grad': 'linear-gradient(to right, #ff0f7b, #f89b29)',
-      'bg-image': "url('./src/assets/bg/bg.jpg')",
-      'bg-image-dark': "url('./src/assets/bg/dark-bg.jpg')",
+        'btn-grad': 'linear-gradient(to right, #ff0f7b, #f89b29)',
+        'bg-image': `url('https://i.ibb.co/26P93xn/bg.jpg)`,
+        'bg-image-dark': `url('https://i.ibb.co/G7g8K5L/dark-bg.jpg')`,
     },
     colors:{
       'my-gray': '#F3F6F6',
