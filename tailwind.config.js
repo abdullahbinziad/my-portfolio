@@ -15,7 +15,7 @@ module.exports = withMT({
     extend: {
       backgroundImage:{
         'btn-grad': 'linear-gradient(to right, #ff0f7b, #f89b29)',
-        'bg-image': `url('https://i.ibb.co/26P93xn/bg.jpg)`,
+        'bg-image': `url('https://i.ibb.co/26P93xn/bg.jpg')`,
         'bg-image-dark': `url('https://i.ibb.co/G7g8K5L/dark-bg.jpg')`,
     },
     colors:{
