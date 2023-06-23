@@ -43,18 +43,22 @@ const Resume = () => {
                 <h1 className="text-2xl font-normal">Experience</h1>
               </div>
               <div className="space-y-2 bg-my-grad3 p-6 rounded-md">
-                <h5 className="">2018 - 2020 </h5>
-                <h1 className="text-2xl font-normal">Higher Secondary</h1>
+                <h5 className="">July 2022 - Oct 2022 </h5>
+                <h1 className="text-2xl font-normal"> Web Developer</h1>
                 <h3 className="text-lg">
-                  Satkhira Govt College , Science Group
+                Authentic IT Solution
                 </h3>
               </div>
               <div className="space-y-2 bg-my-grad4 p-6 rounded-md">
-                <h5 className="">2021 - Present </h5>
+                <h5 className=""> Feb 2023 - Present </h5>
                 <h1 className="text-2xl font-normal">
-                  Bsc in Computer Science and Engineering
+                  Full Stack Developer 
                 </h1>
-                <h3 className="text-lg">Mymensing Engineering College</h3>
+                <span> (Team Work)</span>
+                
+                <h3 className="text-lg">MEC Computer Club
+                 </h3>
+                
               </div>
             </div>
           </div>

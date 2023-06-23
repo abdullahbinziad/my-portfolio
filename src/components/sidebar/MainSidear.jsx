@@ -102,7 +102,7 @@ const MainSidear = () => {
           <hr className="w-full" />
           
         </div>
-        <a href="https://drive.google.com/file/d/1pdZOam69ZH5S3ZfJiGEPGKRB7VOLpGO7/view?usp=drive_link"><button className=" w-3/4 mx-auto bg-btn-grad flex gap-3 px-6 py-3 text-white justify-center items-center text-center rounded-2xl"><FaDownload/> Download Cv</button></a>
+        <a href="https://drive.google.com/file/d/12VdgXmHtHr6zODGZVojuCuBq8S7LLEyw/view?usp=drive_link"><button className=" w-3/4 mx-auto bg-btn-grad flex gap-3 px-6 py-3 text-white justify-center items-center text-center rounded-2xl"><FaDownload/> Download Cv</button></a>
       </div>
     </div>
   );
