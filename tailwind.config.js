@@ -3,6 +3,7 @@
 const withMT = require("@material-tailwind/react/utils/withMT");
  
 module.exports = withMT({
+  important: true,
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",

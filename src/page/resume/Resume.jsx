@@ -22,8 +22,8 @@ const Resume = () => {
         <div className="md:p-16 p-5 ">
           <h1 className="text-3xl font-bold dark:text-white">Resume</h1>{" "}
           <hr className="bg-btn-grad mt-4" />
-          <div className="md:flex space-y-6 gap-4 py-6">
-            <div className=" flex-1 space-y-4">
+          <div className="md:flex  space-y-6 gap-4 py-6">
+            <div className=" md:flex-1 space-y-4">
               <div className="flex items-center gap-3 mb-3 ">
                 <GiShoppingBag className="text-3xl  text-red-700" />{" "}
                 <h1 className="text-2xl font-normal dark:text-white ">
@@ -49,11 +49,10 @@ const Resume = () => {
             </div>
 
             {/* The Experience Section */}
-
-            <div className=" flex-1 space-y-4">
-              <div className="flex items-center gap-3 mb-3">
+            <div className=" md:flex-1 space-y-4 ">
+            <div className="flex items-center gap-3 mb-3 ">
                 <GiGraduateCap className="text-3xl  text-red-700" />{" "}
-                <h1 className="text-2xl font-normal dark:text-white">
+                <h1 className="text-2xl font-normal dark:text-white ">
                   Experience
                 </h1>
               </div>
@@ -75,6 +74,7 @@ const Resume = () => {
                 <h3 className="text-lg">MEC Computer Club</h3>
               </div>
             </div>
+           
           </div>
         </div>
 
