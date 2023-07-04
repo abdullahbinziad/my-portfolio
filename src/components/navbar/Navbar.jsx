@@ -5,9 +5,11 @@ import Switcher from "../darkside/Switcher";
 
 const Navbar = () => {
   return (
-    <div className="md:flex items-center gap-8 justify-end">
+    <div  className="md:flex  z-10 items-center gap-8 justify-end">
        <Switcher></Switcher>
-      <div className="flex  justify-start gap-3 bg-white dark:bg-my-dark px-6 py-4 rounded-md">
+      <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className="flex  justify-start gap-3 bg-white dark:bg-my-dark px-6 py-4 rounded-md">
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>

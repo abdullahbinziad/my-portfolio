@@ -2,6 +2,7 @@ import React from "react";
 import MainSidear from "../components/sidebar/MainSidear";
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/navbar/Navbar";
+import JumpButton from "../components/jump/JumpButton";
 
 const MainLayout = () => {
   return (
@@ -13,6 +14,7 @@ const MainLayout = () => {
         <div className=" md:w-2/3 md:py-20 space-y-2 flex flex-col">
             <Navbar></Navbar>
           <Outlet></Outlet>
+          <JumpButton></JumpButton>
         </div>
       </div>
     </div>

@@ -127,7 +127,7 @@ import Swal from 'sweetalert2';
      bg-my-gray-btn
     "
       rows={3}
-      placeholder="Tell us what you're thinking about..."
+      placeholder="Tell me what you're thinking about..."
       defaultValue={""}
     />
   </label>

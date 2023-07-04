@@ -1,0 +1,60 @@
+[
+  {
+    "projecTitle": "My Fav Recipe",
+    "projectsType": "Resturant Website",
+    "category": "ecommerce",
+    "date": "20 May to 14 May 2023",
+    "liveLink": "https://my-fav-recipe.web.app/",
+    "github": "https://github.com/abdullahbinziad/my-fav-recipe",
+    "images": ["https://i.ibb.co/DLXpcN0/screencapture-my-fav-recipe-web-app-2023-06-29-01-20-43.png"],
+    "features": [
+      
+    ],
+    "technolgy": "Html,Css,Javascript,React JS, Axios,jwt ",
+    "shortDescription": "This Application is all about a Resturant , Heres are section for Popular Food Items and also Chef section . Every single page for every Chef including their recipe , This is Protected Routes . Signin with social also registration page available"
+  },
+  
+  {
+    "projecTitle": "ZooPlay",
+    "projectsType": "Toy selling Website",
+    "category": "ecommerce",
+    "date": "20 May 2023 to Present",
+    "liveLink": "https://zooplay-46ab0.web.app/",
+    "github": "https://github.com/abdullahbinziad/zooPlay-client",
+    "images": ["https://i.ibb.co/drqJ0qr/screencapture-zooplay-46ab0-web-app-2023-06-29-01-37-51.png"],
+    "features": [
+     
+    ],
+    "technolgy": "Html,Css,Javascript,React JS, Axios,jwt ",
+    "shortDescription": "Single Page Application 4.Products Upload,Delete,Update System 5.Dynamic Route 6.Dynamic Site Title Change for every route 7.Classical Ecommerce Vibe on Products Details Page 8.Dinamic Search Option in All Toys Pages 9. Catagorised Filter Option in All Toys Page also search Bar 10. Dinamic Responsive Navbar"
+  },
+  {
+    "projecTitle": "Fashion Canvas",
+    "projectsType": "Course Selling App",
+    "category": "lms",
+    "date": "20 April 2023 to Present",
+    "liveLink": "https://fashioncanvas-institute.web.app/",
+    "github": "https://github.com/abdullahbinziad/fashion-canvas-client",
+    "images": ["https://i.ibb.co/mNBnvtP/screencapture-fashioncanvas-institute-web-app-dashboard-manage-courses-2023-06-29-01-44-53.png"],
+    "features": [
+
+    ],
+    "technolgy": "Html,Css,Javascript,React JS, Axios,jwt ",
+    "shortDescription": "Single Page Application 4.Course Upload,Delete,Update System 5.Dynamic Route 6.Awesome user / instructor/admin login sytem 7.Classical LMS Vibe on Course Details Page 8. Dinamic Responsive Navbar"
+  },
+  {
+    "projecTitle": "Rafael Draw",
+    "projectsType": "Rafael Draw Application",
+    "category": "others",
+    "date": "20 April 2023 to Present",
+    "liveLink": "https://raffle-draw-abdullah.netlify.app/",
+    "github": "https://github.com/abdullahbinziad/Rafael-draw",
+    "images": ["https://i.ibb.co/jZfpNMg/Screenshot-1.png"],
+    "features": [
+
+    ],
+    "technolgy": "Html,Css,Javascript",
+    "shortDescription": "Rafael Draw Application using Vanilla Javascript. Here we can take Three winner's names. We can input words/name separated by commas as we wish "
+  }
+  
+]
